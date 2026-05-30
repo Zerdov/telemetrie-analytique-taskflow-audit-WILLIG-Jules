@@ -1,0 +1,43 @@
+# Dépendances
+node_modules/
+taskflow-buggy/backend/node_modules/
+taskflow-buggy/frontend/node_modules/
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+pino-*.log
+
+# Build / dist
+dist/
+build/
+taskflow-buggy/frontend/dist/
+.vite/
+
+# Docker volumes générés localement
+taskflow-buggy/data/postgres/
+taskflow-buggy/data/grafana/
+
+# Fichiers Grafana générés
+taskflow-buggy/grafana/grafana.db
+taskflow-buggy/grafana/*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage / tests
+coverage/
+.nyc_output/
